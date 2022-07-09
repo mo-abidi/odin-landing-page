@@ -1,0 +1,44 @@
+div {
+    border-style: solid;
+    border-color: aqua
+}
+
+.header, .footer {
+    /*
+    background-color: #1F2937;
+    color: white;
+    */
+}
+
+.navbar-left {
+
+    
+}
+
+.navbar-right {
+    margin-left: auto;
+    gap: 8px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 200px;
+}
+
+.column-type1 {
+    height: 200px;
+    background-color: green;
+}
+
+/*
+*/
