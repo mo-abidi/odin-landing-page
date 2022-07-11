@@ -36,12 +36,6 @@ div {
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    height: 200px;
-}
-
-.column-type1 {
-    height: 200px;
-    background-color: green;
 }
 
 .title-one {
@@ -52,6 +46,7 @@ div {
 .title-two {
     font-weight: 900;
     font-size: large;
+    justify-content: center;
 }
 
 .button {
@@ -63,6 +58,11 @@ div {
     text-decoration: none;
     font-weight: bold;
     
+}
+
+.thumbnail {
+    border: 2px solid blue;
+    border-radius: 8%;
 }
 /*
 */
