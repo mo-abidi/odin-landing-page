@@ -60,9 +60,19 @@ div {
     
 }
 
+.thumbnail-row {
+    justify-content: center;
+}
+
 .thumbnail {
     border: 2px solid blue;
     border-radius: 8%;
+}
+
+.horizontally-centered-text {
+    /* for text in a div with property flex-direction: row */
+    text-align: center;
+    justify-content: center;
 }
 /*
 */
