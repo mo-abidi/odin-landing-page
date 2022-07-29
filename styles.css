@@ -38,9 +38,13 @@ div {
     flex: 1;
 }
 
+.padding-column {
+    width: 250px;
+}
+
 .title-one {
     font-weight: 900;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .title-two {
@@ -67,6 +71,16 @@ div {
 .thumbnail {
     border: 2px solid blue;
     border-radius: 8%;
+}
+
+.inspiring-quote {
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.quote-attribution {
+    font-weight: bolder;
+    align-items: end;
 }
 
 .horizontally-centered-text {
