@@ -3,25 +3,35 @@ body {
 }
 
 div {
+    /*
     border-style: solid;
     border-color: aqua
-}
-
-.header, .footer {
-    /*
-    background-color: #1F2937;
-    color: white;
     */
 }
 
-.navbar-left {
+.top-section {
+    background-color: #1F2937;
 
-    
+}
+
+.navbar-left {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .navbar-right {
-    margin-left: auto;
-    gap: 8px;
+    justify-content: end;
+    gap: 16px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F9FAF8;
+    text-decoration: none;
 }
 
 .row {
@@ -38,19 +48,47 @@ div {
     flex: 1;
 }
 
+.padding-column-top {
+    width: 150px;
+    
+}
+
+.padding-column-top-2 {
+    width: 50px;
+}
+
 .padding-column {
     width: 250px;
+    flex-basis: auto;
+    flex-shrink: 5;
 }
 
-.title-one {
-    font-weight: 900;
-    font-size: xx-large;
+.padding-row {
+    height: 50px;
 }
 
-.title-two {
+.hero-text {
     font-weight: 900;
-    font-size: large;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+#main-image {
+    flex-basis: 0;
+}
+
+.information-header {
+    font-weight: 900;
+    font-size: 36px;
     justify-content: center;
+    color: #1F2937;
 }
 
 .button {
@@ -73,9 +111,14 @@ div {
     border-radius: 8%;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+}
+
 .inspiring-quote {
-    font-size: xx-large;
+    font-size: 36px;
     font-style: italic;
+    color: #1F2937;
 }
 
 .quote-attribution {
@@ -88,5 +131,3 @@ div {
     text-align: center;
     justify-content: center;
 }
-/*
-*/
